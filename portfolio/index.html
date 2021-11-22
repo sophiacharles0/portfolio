@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- This example is based off of the Bootstrap 4 Starter
+    Template. It has been modified and additional examples have
+    been added to demo a simple art portfolio. -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Jekyll v4.1.1" />
+    <title>Sophia's Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- Additional Style Rules-->
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Begin Nav Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Sophia Charles</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/portfolio/index.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/bio.html">Bio</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="text"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!-- End Nav Bar -->
+
+    <!-- Begin Page Content. -->
+    <main role="main" class="container">
+      <!-- Album Top Start. -->
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1>Portfolio</h1>
+          <p class="lead text-muted">
+            Glad you made it this far!
+            <br />These works where created between 2019 and 2021 in preparation
+            to apply for the DMA BFA program. <br /><br />
+            Below is a grid of artworks I have created and working on expanding:
+          </p>
+        </div>
+      </section>
+      <!-- Album Top End. -->
+
+      <!-- Begin Album Body -->
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <!-- Tron glitch Card Start -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src=https://cdn.glitch.me/34a15422-bbea-4a6d-83bf-e3f06c9ea79d%2FRinzler_og%20-%20Copy.jpg?v=1636945409087
+                  width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is my glitch project, click below for more information
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = 'tronglitch.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        view
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Tron glitch Card End -->
+
+            <!-- GIF Card Start -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="https://cdn.glitch.me/34a15422-bbea-4a6d-83bf-e3f06c9ea79d%2Ftotoro_.gif?v=1636945831524"
+                  width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">This is my GIF project.</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = 'gifs.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- GIF Card End -->
+
+            <!-- SpaceDogs Card Start -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img
+                  src="https://cdn.glitch.me/34a15422-bbea-4a6d-83bf-e3f06c9ea79d%2FGiant%20Dogs.png?v=1636945719656" width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">This is an collage made in photoshop.</p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = 'spacedogs.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SpaceDogs Card End -->
+            
+            <!-- Onion Card Start -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                  <img
+                    src="https://cdn.glitch.me/34a15422-bbea-4a6d-83bf-e3f06c9ea79d%2Fonion.jpg?v=1636945231552" width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is an illustration I drew using ClipStudio Paint.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = 'onion.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Onion Card End -->
+            
+            <!-- Tron Card Start -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+               <img
+                  src="https://cdn.glitch.me/34a15422-bbea-4a6d-83bf-e3f06c9ea79d%2FCharcoal%20Tron.jpg?v=1636945971587" width="100%"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a charcoal drawing of my dog.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        onclick="document.location.href = 'tron.html'"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <!-- Tron Card End -->
+            
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg
+                  class="bd-placeholder-img card-img-top"
+                  width="100%"
+                  height="225"
+                  xmlns="http://www.w3.org/2000/svg"
+                  preserveaspectratio="xMidYMid slice"
+                  focusable="false"
+                  role="img"
+                  aria-label="Placeholder: Thumbnail"
+                >
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c" />
+                  <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                    Thumbnail
+                  </text>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg
+                  class="bd-placeholder-img card-img-top"
+                  width="100%"
+                  height="225"
+                  xmlns="http://www.w3.org/2000/svg"
+                  preserveaspectratio="xMidYMid slice"
+                  focusable="false"
+                  role="img"
+                  aria-label="Placeholder: Thumbnail"
+                >
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c" />
+                  <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                    Thumbnail
+                  </text>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg
+                  class="bd-placeholder-img card-img-top"
+                  width="100%"
+                  height="225"
+                  xmlns="http://www.w3.org/2000/svg"
+                  preserveaspectratio="xMidYMid slice"
+                  focusable="false"
+                  role="img"
+                  aria-label="Placeholder: Thumbnail"
+                >
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c" />
+                  <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                    Thumbnail
+                  </text>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg
+                  class="bd-placeholder-img card-img-top"
+                  width="100%"
+                  height="225"
+                  xmlns="http://www.w3.org/2000/svg"
+                  preserveaspectratio="xMidYMid slice"
+                  focusable="false"
+                  role="img"
+                  aria-label="Placeholder: Thumbnail"
+                >
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c" />
+                  <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                    Thumbnail
+                  </text>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Blank Cards End -->
+        </div>
+      </div>
+    </main>
+    <!-- End Page Content. -->
+
+    <!-- Required Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+     ><\/script>'
+        );</script
+    ><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
